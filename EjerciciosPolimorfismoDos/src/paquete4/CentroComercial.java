@@ -35,6 +35,7 @@ public class CentroComercial {
     public void establecerTotalArriendosFinalMensual() {
         for (int i = 0; i < obtenerArriendos().size(); i++) {
             totalArriendosFinalMensual = totalArriendosFinalMensual
+            //         
                     + obtenerArriendos().get(i).obtenerArriendoMensual();
         }
     }
@@ -72,6 +73,7 @@ public class CentroComercial {
             cadena = String.format("%s"
                     + "%s\n",
                     cadena,
+                    // llama al toString 
                     obtenerArriendos().get(i));
         }
 
