@@ -15,6 +15,7 @@ public abstract class Arriendo {
     protected double arriendoMensual;
     protected double cuotaBase;
     
+    
     public Arriendo(String nombre, double cuotaB){
         // nombreArrendatario = nombre;
         establecerNombreArrendatario(nombre);

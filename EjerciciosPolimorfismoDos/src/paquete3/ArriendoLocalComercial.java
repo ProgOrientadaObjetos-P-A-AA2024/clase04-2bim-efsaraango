@@ -31,6 +31,7 @@ public class ArriendoLocalComercial extends Arriendo {
     @Override
     public void establecerArriendoMensual() {
         arriendoMensual = obtenerCuotaBase() + obtenerValorAdicionalFijo();
+        /* arriendoMensual = cuotaBase + valorAdicionalFijo; */
     }
 
     public double obtenerValorAdicionalFijo() {

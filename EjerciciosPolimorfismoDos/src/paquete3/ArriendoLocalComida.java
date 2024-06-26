@@ -15,10 +15,13 @@ public class ArriendoLocalComida extends Arriendo {
     private double valorAgua;
     private double iva;
     
+    // enviarle calores a la super clase
     public ArriendoLocalComida(String nombre, double cuotaB){
+        // el super es para llamar el constructor de la super clase
         super(nombre, cuotaB);
     }
     
+    // 
     public ArriendoLocalComida(String nombre, double cuotaB, double vl, 
             double va, double iv){
         super(nombre, cuotaB);
