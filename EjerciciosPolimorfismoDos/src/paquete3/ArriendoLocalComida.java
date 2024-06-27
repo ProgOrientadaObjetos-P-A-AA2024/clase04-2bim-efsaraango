@@ -77,6 +77,7 @@ public class ArriendoLocalComida extends Arriendo {
                 obtenerIva(),
                 obtenerArriendoMensual());
         
+        
         return cadena;
     }
     
